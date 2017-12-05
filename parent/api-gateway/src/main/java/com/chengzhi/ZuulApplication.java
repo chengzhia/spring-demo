@@ -4,11 +4,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
-import org.springframework.cloud.netflix.zuul.filters.discovery.PatternServiceRouteMapper;
-import org.springframework.context.annotation.Bean;
-import org.springframework.web.servlet.mvc.condition.PatternsRequestCondition;
-
-import com.chengzhi.web.filter.AccessFilter;
 
 @EnableZuulProxy
 @EnableDiscoveryClient
