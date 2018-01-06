@@ -9,6 +9,7 @@ public class HelloController {
 	
 	@RequestMapping("/query")	
 	public String helloWorld() {
-		return "hello World";
+		System.out.println("this is service port 9003");
+		return "hello World 9003";
 	}
 }
