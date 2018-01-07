@@ -10,5 +10,6 @@
     <dubbo:application name="${dubbo.application.name}"/>
     <dubbo:registry protocol="${dubbo.registry.protocol}" address="${dubbo.registry.address}"/>
     <dubbo:protocol name="${dubbo.protocol.name}" port="${dubbo.protocol.port}"/>
-    <dubbo:service interface="com.chengzhi.web.service.DubboService" ref="dubboServiceImpl" registry="0" timeout="6000"/>
+    <dubbo:service interface="com.chengzhi.web.servive.DubboService" ref="dubboService" timeout="6000"/>
+    <bean id="dubboService" class="com.chengzhi.web.servive.impl.DubboServiceImpl"/>
 </beans>
