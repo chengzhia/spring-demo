@@ -21,6 +21,7 @@ public class LoginInterceptor extends HandlerInterceptorAdapter {
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         request.setAttribute("startTime",System.currentTimeMillis());
+        System.out.println(request.getServletPath());
         return true;
     }
 

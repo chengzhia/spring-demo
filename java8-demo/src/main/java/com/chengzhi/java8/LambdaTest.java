@@ -18,4 +18,10 @@ public class LambdaTest {
     public void Test1(){
         List<String> list = Arrays.asList("aa","bb","cc","dd");
     }
+    public static void main(String args[]) {
+        System.out.println(3*0.1);
+        System.out.println(0.09+0.01);
+
+    }
+
 }

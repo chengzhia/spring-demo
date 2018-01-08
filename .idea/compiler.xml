@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api-gateway" />
+        <module name="boot-demo" />
+        <module name="config-server" />
+        <module name="dubbo-api" />
+        <module name="dubbo-consumer" />
+        <module name="dubbo-provider" />
+        <module name="eureka-one" />
+        <module name="eureka-two" />
+        <module name="java8-demo" />
+        <module name="ribbon-consumer" />
+        <module name="service-one" />
+        <module name="service-two" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-gateway" target="1.8" />
+      <module name="boot-demo" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="dubbo-api" target="1.8" />
+      <module name="dubbo-consumer" target="1.8" />
+      <module name="dubbo-parent" target="1.8" />
+      <module name="dubbo-provider" target="1.8" />
+      <module name="eureka-one" target="1.8" />
+      <module name="eureka-two" target="1.8" />
+      <module name="java8-demo" target="1.8" />
+      <module name="parent" target="1.8" />
+      <module name="ribbon-consumer" target="1.8" />
+      <module name="service-one" target="1.8" />
+      <module name="service-two" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
