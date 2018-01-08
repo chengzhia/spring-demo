@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/parent/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/parent/api-gateway/api-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot-demo/boot-demo.iml" filepath="$PROJECT_DIR$/boot-demo/boot-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent/config-server/config-server.iml" filepath="$PROJECT_DIR$/parent/config-server/config-server.iml" />
@@ -16,6 +17,12 @@
       <module fileurl="file://$PROJECT_DIR$/parent/ribbon-consumer/ribbon-consumer.iml" filepath="$PROJECT_DIR$/parent/ribbon-consumer/ribbon-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent/service-one/service-one.iml" filepath="$PROJECT_DIR$/parent/service-one/service-one.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent/service-two/service-two.iml" filepath="$PROJECT_DIR$/parent/service-two/service-two.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/dubbo-parent/dubbo-api/dubbo-api.iml" filepath="$PROJECT_DIR$/dubbo-parent/dubbo-api/dubbo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-parent/dubbo-consumer/dubbo-consumer.iml" filepath="$PROJECT_DIR$/dubbo-parent/dubbo-consumer/dubbo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-parent/dubbo-provider/dubbo-provider.iml" filepath="$PROJECT_DIR$/dubbo-parent/dubbo-provider/dubbo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-demo/java-demo.iml" filepath="$PROJECT_DIR$/java-demo/java-demo.iml" />
+>>>>>>> db6beff7acb5ed8d5cb2e2064ba3a83fdd95282a
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-demo.iml" filepath="$PROJECT_DIR$/.idea/spring-demo.iml" />
     </modules>
   </component>

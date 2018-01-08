@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+<<<<<<< HEAD
+=======
+    <option name="DEFAULT_COMPILER" value="Eclipse" />
+    <addNotNullAssertions enabled="false" />
+>>>>>>> db6beff7acb5ed8d5cb2e2064ba3a83fdd95282a
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
         <module name="api-gateway" />
         <module name="boot-demo" />
         <module name="config-server" />
@@ -37,4 +43,23 @@
       <module name="service-two" target="1.8" />
     </bytecodeTargetLevel>
   </component>
+=======
+        <module name="dubbo-api" />
+        <module name="dubbo-consumer" />
+        <module name="dubbo-provider" />
+        <module name="java-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="dubbo-api" target="1.8" />
+      <module name="dubbo-consumer" target="1.8" />
+      <module name="dubbo-parent" target="1.5" />
+      <module name="dubbo-provider" target="1.8" />
+      <module name="java-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="EclipseCompilerSettings">
+    <option name="PROCEED_ON_ERROR" value="false" />
+  </component>
+>>>>>>> db6beff7acb5ed8d5cb2e2064ba3a83fdd95282a
 </project>
